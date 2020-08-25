@@ -1,0 +1,28 @@
+.page-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto
+  }
+
+.openning {
+  font-family: fantasy; 
+  font-size: 1.8em; 
+  color: olivedrab;
+  padding: 15px;
+  margin: 10px
+  }
+
+.aboutme {
+    font: normal 18px/1.4 Georgia;
+    color: darkslategrey;    
+  }
+
+footer {
+  font-style: oblique;
+  font-size: 16px;
+  color: green;
+  margin-bottom: 5px;
+}
