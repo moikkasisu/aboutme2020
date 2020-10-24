@@ -1,4 +1,4 @@
-.page-wrap {
+/*.page-wrap {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -25,4 +25,130 @@ footer {
   font-size: 16px;
   color: green;
   margin-bottom: 5px;
+}
+*/
+
+
+.navbar {
+  background-color: rgb(9, 63, 57);
+  overflow: hidden;
+}
+
+
+.nav-item a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-item a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-item a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav-item {
+  text-shadow: 1px 1px 2px rgb(184, 210, 243);
+}
+
+.navbar-brand {
+  text-shadow: 1px 1px 2px rgb(184, 210, 243);
+  }
+
+.navbar-toggle {
+  z-index:3;
+}
+
+body {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40em;
+  margin: 0 auto;
+  color: darkslategrey; 
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: 1.1rem;
+  }
+
+h1{
+color: slateblue;
+font-style: italic;
+}
+
+#welcome {
+  padding:0;
+  margin-left: 2rem;
+}
+
+.image {
+ height: 50%;
+ width: 50%
+}
+
+
+#cv {
+  font-style: oblique;
+  font-size: 16px;
+  color: green;
+  margin-top: 5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.rangeslider{ 
+  width: 50%; 
+} 
+
+.myslider { 
+  -webkit-appearance: none; 
+  background: #FCF3CF  ; 
+  width: 50%; 
+  height: 20px; 
+  opacity: 2; 
+ } 
+
+
+.myslider::-webkit-slider-thumb { 
+  -webkit-appearance: none; 
+  cursor: pointer; 
+  background: #879db3  ; 
+  width: 5%; 
+  height: 20px; 
+} 
+
+
+.myslider:hover { 
+  opacity: 1; 
+} 
+
+.card {
+  text-align: center;
+} 
+
+#contact{
+  color: olivedrab;
+}
+
+#contactForm{
+  margin-top: 1rem;
 }
