@@ -31,7 +31,7 @@ footer {
 
 .navbar {
   background-color: rgb(9, 63, 57);
-  overflow: hidden;
+  overflow: visible;  
 }
 
 
@@ -39,9 +39,9 @@ footer {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 1rem;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.4rem;
 }
 
 .nav-item a:hover {
@@ -56,6 +56,7 @@ footer {
 
 .nav-item {
   text-shadow: 1px 1px 2px rgb(184, 210, 243);
+  font-family: fantasy
 }
 
 .navbar-brand {
@@ -66,43 +67,40 @@ footer {
   z-index:3;
 }
 
-body {
-  padding-top: 60px;
-  display: flex;
-  flex-direction: column;
+.modal{
+  overflow: hidden;
 }
 
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
+#ibutton{
+font-size: 1rem;
+text-decoration: grey;
+}
+
+#contactForm{
+ margin: 1rem
 }
 
 .main-body {
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40em;
   margin: 0 auto;
+  width: 50rem;
   color: darkslategrey; 
   font-family: Georgia, 'Times New Roman', Times, serif;  
   font-size: 1.1rem;
   }
 
-h1{
+h1, h2{
 color: slateblue;
 font-style: italic;
 }
 
-#welcome {
-  padding:0;
-  margin-left: 2rem;
-}
-
-.image {
- height: 50%;
- width: 50%
+#brand{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2rem;
 }
 
 
@@ -115,40 +113,51 @@ font-style: italic;
   text-align: center;
 }
 
-.rangeslider{ 
-  width: 50%; 
-} 
-
-.myslider { 
-  -webkit-appearance: none; 
-  background: #FCF3CF  ; 
-  width: 50%; 
-  height: 20px; 
-  opacity: 2; 
- } 
-
-
-.myslider::-webkit-slider-thumb { 
-  -webkit-appearance: none; 
-  cursor: pointer; 
-  background: #879db3  ; 
-  width: 5%; 
-  height: 20px; 
-} 
-
-
-.myslider:hover { 
-  opacity: 1; 
-} 
-
-.card {
-  text-align: center;
-} 
-
-#contact{
-  color: olivedrab;
-}
-
-#contactForm{
+#blog{
   margin-top: 1rem;
 }
+
+hr {
+  border: 1rem dotted #00f7ff;
+  border-style: none none dotted; 
+  color: #fff; 
+  background-color: #fff;
+}
+
+h3 {
+color: #00f7ff;
+font-style: italic;
+}
+
+.card {
+  text-align: justify;
+} 
+
+
+#contactForm{
+margin-top: 1rem;
+color: rgb(42, 131, 143);
+  }
+
+#projectimg {
+width: 100%;
+height: 100%
+}
+
+#blogimg {
+  border-radius: 10%;
+  width: 5rem;
+  height: 5rem
+}
+
+#alpacino{
+  width: 100%;
+  height: 100%;
+}
+
+#wrap{
+  display: flex;
+  align-items: center;
+  margin: 1rem; 
+  }
+
