@@ -1,37 +1,27 @@
 
-.navbar {
+/* .navbar {
   background-color: rgb(9, 63, 57);
   overflow: visible;  
-}
+} */
 
 
-.nav-item a {
+.navbar-nav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 1rem 1rem;
   text-decoration: none;
   font-size: 1.4rem;
+  text-shadow: 0.7rem 0.7rem 0.7rem rgb(184, 210, 243);
+  font-family: fantasy;
 }
 
 .nav-item a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgb(36, 41, 63);
 }
 
-.nav-item a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
-.nav-item {
-  text-shadow: 1px 1px 2px rgb(184, 210, 243);
-  font-family: fantasy
-}
-
-.navbar-brand {
-  text-shadow: 1px 1px 2px rgb(184, 210, 243);
-  }
 
 .navbar-toggle {
   z-index:3;
@@ -43,7 +33,6 @@
 
 #ibutton{
 font-size: 1rem;
-text-decoration: grey;
 }
 
 #contactForm{
@@ -64,13 +53,14 @@ text-decoration: grey;
   }
 
 h1, h2{
-color: slateblue;
+color: rgb(53, 171, 245);
 font-style: italic;
 }
 
 #brand{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 2rem;
+padding-left: 1rem;
 }
 
 
@@ -88,7 +78,7 @@ font-size: 2rem;
 }
 
 hr {
-  border: 1rem dotted #00f7ff;
+  border: 0.5rem dotted #00f7ff;
   border-style: none none dotted; 
   color: #fff; 
   background-color: #fff;
@@ -117,7 +107,7 @@ height: 100%
 #blogimg {
   border-radius: 10%;
   width: 5rem;
-  height: 5rem
+  height: 5rem;
 }
 
 #alpacino{
